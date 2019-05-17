@@ -29,13 +29,13 @@
 
             <meta name="robots" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="vLance.vn" />
+    <meta name="author" content="doanjob.com" />
     <link rel="publisher" href="https://plus.google.com/110723961725253795351/"/>
     <title>Đồ án web python - Hutech </title>
-    <meta property="og:site_name" content="vLance.vn" />
+    <meta property="og:site_name" content="ce.vn" />
     <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" name="title" content="Freelancer Việt Nam - Lựa chọn số 1 của doanh nghiệp - vLance.vn" />
+    <meta property="og:title" name="title" content="Freelancer Việt Nam - Lựa chọn số 1 của doanh nghiệp - HUTECH" />
     <meta property="og:image" content="img/og/vlance.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -78,14 +78,14 @@
     </script>
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&amp;subset=latin,vietnamese' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="{% static 'maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' %}">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" media="all" />
     <link href="{% static 'css/bootstrap-datepicker.min.css' %}" rel="stylesheet" type="text/css" media="all" />
     <link href="{% static 'css/vlance.css' %}" media="all" rel="stylesheet" type="text/css"/>
     <link href="{% static 'css/vlance-responsive.css' %}" rel="stylesheet" type="text/css" media="all" />
     <link href="{% static 'css/slider_home.min.css' %}" rel="stylesheet" type="text/css" media="all" />
     <!--[if IE 8]>
-    <link href="/css/vlance-ie8.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="{% static 'css/vlance-ie8.css'%}" media="screen" rel="stylesheet" type="text/css" />
     <![endif]-->
 
     <!--[if IE 7]>
@@ -397,9 +397,9 @@
                 <a class="btn-linkedin" onclick="linkedin_login()"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
             </div>
             <div class="box-choice">
-                <img src="../polls/static/img/line-2.png">
+                <img src="{% static 'img/line-2.png'%}>
                 <span>Hoặc</span>
-                <img src="../polls/static/img/line-2.png">
+                <img src="{% static 'img/line-2.png'%}>
             </div>
             <form id="register-form" action="#" method="post">
     <div class="control-group">
@@ -744,7 +744,7 @@
                     <p class="address">Địa chỉ: Tầng 4, số 3, ngõ 18, phố Yên Lãng, phường Láng Hạ, quận Đống Đa, Hà Nội - Hỗ trợ: <a href="mailto:hotro@vlance.vn">hotro@vlance.vn</a> - ĐT: (+84) 024.6684.1818</p>
                 </div>
                 <div class="dkkd">
-                    <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=46478" rel="nofollow" target="blank"><img alt="" title="" src="media/dkkd-vlance.png" /></a>
+                    <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=46478" rel="nofollow" target="blank"><img alt="" title="" src="{% static 'media/dkkd-vlance.png'%} /></a>
                 </div>
                             </div>
         </div>

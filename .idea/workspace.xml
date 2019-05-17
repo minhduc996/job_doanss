@@ -10,11 +10,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/job/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="238">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/job/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,6 +40,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>vlan</find>
+      <find>(src=)&quot;(\S+$*)&quot;</find>
+      <find>fb_login()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$1&quot;{% static '$2'%}</replace>
+      <replace>$1&quot;{% static '$2'%}&quot;</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -36,13 +59,17 @@
       <list>
         <option value="$PROJECT_DIR$/job_doan/settings.py" />
         <option value="$PROJECT_DIR$/../web_job/polls/views.py" />
-        <option value="$PROJECT_DIR$/job/urls.py" />
         <option value="$PROJECT_DIR$/job_doan/urls.py" />
+        <option value="$PROJECT_DIR$/job/templates/layout/base.html" />
+        <option value="$PROJECT_DIR$/job/templates/dang-du-an.html" />
+        <option value="$PROJECT_DIR$/job/templates/dang-viec-tuyen-dung.html" />
+        <option value="$PROJECT_DIR$/job/templates/dang-cuoc-thi.html" />
         <option value="$PROJECT_DIR$/job/views.py" />
+        <option value="$PROJECT_DIR$/job/urls.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="300" />
     <option name="width" value="1026" />
     <option name="height" value="745" />
@@ -59,6 +86,28 @@
           <expand>
             <path>
               <item name="job_doan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job_doan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job_doan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job_doan" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job_doan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job_doan" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job_doan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job_doan" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job_doan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job_doan" type="462c0819:PsiDirectoryNode" />
               <item name="job_doan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -133,22 +182,23 @@
       <updated>1558041340396</updated>
       <workItem from="1558041341827" duration="299000" />
       <workItem from="1558041691384" duration="3949000" />
+      <workItem from="1558068525045" duration="3631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4248000" />
+    <option name="totallyTimeSpent" value="7879000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="300" y="0" width="1026" height="745" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25465837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18986385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49896482" weight="0.30392158" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49896482" visible="true" weight="0.30273753" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -183,46 +233,90 @@
     <entry file="file://$PROJECT_DIR$/../web_job/polls/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/templates/layout/base.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/job/static/js/form/job/edit.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/job_doan/settings.py">
+    <entry file="file://$PROJECT_DIR$/job_doan/settings.py" />
+    <entry file="file://$PROJECT_DIR$/job/templates/layout/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="125">
+          <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/job_doan/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/templates/dang-du-an.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2041">
+          <caret line="116" column="14" lean-forward="true" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
           <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="e#515#543#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/urls.py">
+    <entry file="file://$PROJECT_DIR$/job/templates/dang-viec-tuyen-dung.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="107" column="18" lean-forward="true" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#8703#8708#0#HTML" expanded="true" />
+            <element signature="e#8784#8789#0#HTML" expanded="true" />
+            <element signature="e#9005#9010#0#HTML" expanded="true" />
+            <element signature="e#10092#10097#0#HTML" expanded="true" />
+            <element signature="e#10440#10445#0#HTML" expanded="true" />
+            <element signature="e#10511#10516#0#HTML" expanded="true" />
+            <element signature="e#10690#10695#0#HTML" expanded="true" />
+            <element signature="e#10894#10899#0#HTML" expanded="true" />
+            <element signature="e#37293#37297#0#HTML" expanded="true" />
+            <element signature="e#37474#37478#0#HTML" expanded="true" />
+            <element signature="e#45274#45300#0#HTML" expanded="true" />
+            <element signature="e#45361#45387#0#HTML" expanded="true" />
+            <element signature="e#45407#45429#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/templates/dang-cuoc-thi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="421" column="34" lean-forward="true" selection-start-line="421" selection-start-column="34" selection-end-line="421" selection-end-column="34" />
+          <folding>
+            <element signature="e#2819#2847#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/job/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="238">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
