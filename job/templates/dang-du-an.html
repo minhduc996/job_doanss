@@ -132,186 +132,27 @@
     <label class="required" for="vlance_jobbundle_jobtype_category" >Chọn lĩnh vực cần tuyển    </label>    <select
     id="vlance_jobbundle_jobtype_category"
 name="vlance_jobbundle_jobtype[category]"
-required="required"             placeholder="Chọn lĩnh vực phù hợp"                 data-toggle="popover"                 data-placement="top"                 data-content="Chọn lĩnh vực phù hợp"                 data-trigger="hover"                 class="popovers-input span12"    >
-    <option  disabled="disabled" selected="selected">- Tên lĩnh vực -</option>        <optgroup label="Kiến trúc và xây dựng">
-            <option value="19">Thiết kế nội thất nhà và chung cư</option>
-                <option value="64">Thiết kế ngoại thất nhà ở</option>
-                <option value="65">Thiết kế nội thất nhà và chung cư</option>        </optgroup>
-                <optgroup label="IT và lập trình">
-            <option value="2">Lập trình web</option>
-                <option value="3">Ứng dụng di động</option>
-                <option value="8">Việc lập trình khác</option>
-                <option value="9">Lập trình phần mềm</option>
-                <option value="10">Tối ưu cho công cụ tìm kiếm - SEO</option>
-                <option value="11">Tư vấn, thiết kế hệ thống mạng</option>
-                <option value="40">QA Tester</option>
-                <option value="42">Quản lý dự án</option>        </optgroup>
-                <optgroup label="Marketing &amp; Bán hàng">
-            <option value="26">Quảng cáo google adwords – SEM</option>
-                <option value="27">Tư vấn quảng bá sản phẩm</option>
-                <option value="28">Tư vấn bán hàng &amp; Giới thiệu sản phẩm</option>
-                <option value="29">Nghiên cứu &amp; khảo sát thị trường</option>
-                <option value="30">Việc KD và marketing khác</option>
-                <option value="33">Tổ chức sự kiện</option>
-                <option value="50">Tư vấn, lập kế hoạch &amp; triển khai marketing online</option>
-                <option value="51">Quảng cáo facebook</option>
-                <option value="52">Email marketing</option>
-                <option value="53">Forum seeding</option>        </optgroup>
-                <optgroup label="Lĩnh vực khác">
-            <option value="38">Chụp ảnh</option>
-                <option value="39">Tuyển dụng</option>        </optgroup>
-                <optgroup label="Thiết kế">
-            <option value="7">Thiết kế Logo</option>
-                <option value="13">Thiết kế đồ họa</option>
-                <option value="14">Thiết kế giao diện Website</option>
-                <option value="15">Banner quảng cáo</option>
-                <option value="16">Nhãn hiệu và bao bì</option>
-                <option value="17">Làm video clip</option>
-                <option value="18">Ảnh và chỉnh sửa ảnh</option>
-                <option value="20">Các việc thiết kế khác</option>
-                <option value="43">Thiết kế bộ nhận diện thương hiệu</option>
-                <option value="44">Thiết kế flash &amp; HTML5</option>
-                <option value="45">Thiết kế giao diện ứng dụng di động</option>
-                <option value="46">Thiết kế brochure</option>
-                <option value="47">Thiết kế infographic</option>        </optgroup>
-                <optgroup label="Viết lách &amp; dịch thuật">
-            <option value="6">Viết báo &amp; tạp chí</option>
-                <option value="21">Quản lý blog &amp; fanpage</option>
-                <option value="22">Dịch thuật</option>
-                <option value="23">Viết sách</option>
-                <option value="24">Viết bài PR &amp; quảng cáo sáng tạo</option>
-                <option value="48">Copywriting</option>
-                <option value="49">Viết nội dung cho website</option>
-                <option value="61">Biên tập &amp; chỉnh sửa nội dung</option>        </optgroup></select>    </div>            </div>
+required="required" placeholder="Chọn lĩnh vực phù hợp"                 data-toggle="popover"                 data-placement="top"                 data-content="Chọn lĩnh vực phù hợp"                 data-trigger="hover"                 class="popovers-input span12"    >
+    <option  disabled="disabled" selected="selected">- Tên lĩnh vực -</option>
+                    {% for LinhVuc in post1 %}
+        <option value="{{ LinhVuc.id }}">{{ LinhVuc.title }}</option>
+            {% endfor %}
+                </select>
+                    </div>  </div>
         </div>
     </div>
 
         <div class="control-group service_wrapper hidejs">
     <label for="vlance_jobbundle_jobtype_service" >Chọn dịch vụ phù hợp với yêu cầu tuyển freelancer của bạn nhất    </label>    <select
     id="vlance_jobbundle_jobtype_service"
-name="vlance_jobbundle_jobtype[service]"
-            placeholder="Chọn một dịch vụ cần thuê"                 data-toggle="popover"                 data-placement="top"                 data-content="Chọn một dịch vụ cần thuê"                 data-trigger="hover"                 class="popovers-input span12"    >
-    <option  value="">- Tên dịch vụ -</option>        <option value="51">Bảo trì máy tính</option>
-                <option value="80">Biên soạn tài liệu / giáo trình</option>
-                <option value="81">Biên tập / Chỉnh sửa nội dung</option>
-                <option value="15">Cài đặt / Cấu hình server</option>
-                <option value="2">Cắt HTML/CSS từ PSD</option>
-                <option value="69">Chỉnh sửa ảnh sản phẩm</option>
-                <option value="17">Chụp ảnh sản phẩm</option>
-                <option value="18">Chụp ảnh sự kiện</option>
-                <option value="42">Chụp chân dung chuyên nghiệp</option>
-                <option value="41">Chụp hình cưới</option>
-                <option value="3">Chuyển Template thành Website</option>
-                <option value="21">Dịch văn bản Anh-Việt</option>
-                <option value="28">Dịch văn bản luật</option>
-                <option value="22">Dịch văn bản Nhật-Việt</option>
-                <option value="23">Dịch văn bản Pháp-Việt</option>
-                <option value="38">Dịch văn bản Trung-Việt</option>
-                <option value="72">Dựng motion video</option>
-                <option value="1">Dựng website bán hàng</option>
-                <option value="91">Đăng bài lên website / đăng tin rao vặt</option>
-                <option value="29">Đăng ký / Thay đổi giấy phép đăng ký kinh doanh</option>
-                <option value="99">Đăng ký quyền sử hữu trí tuệ</option>
-                <option value="33">Đăng sản phẩm lên website</option>
-                <option value="34">Đánh máy văn bản</option>
-                <option value="52">Đổ/nạp mực máy in</option>
-                <option value="10">Forum seeding</option>
-                <option value="84">Giới thiệu / Tư vấn sản phẩm</option>
-                <option value="49">Khắc phục sự cố mạng</option>
-                <option value="50">Khôi phục dữ liệu</option>
-                <option value="73">Làm clip ngắn cho fanpage</option>
-                <option value="58">Làm Mobile App theo yêu cầu</option>
-                <option value="76">Làm phim hoạt hình</option>
-                <option value="70">Làm video giới thiệu công ty</option>
-                <option value="71">Làm video giới thiệu về sản phẩm</option>
-                <option value="27">Lập báo cáo tài chính</option>
-                <option value="26">Lập báo cáo thuế doanh nghiệp</option>
-                <option value="108">Lập hồ sơ gọi vốn</option>
-                <option value="32">Lập kế hoạch kinh doanh</option>
-                <option value="112">Nghiên cứu khảo sát thị trường</option>
-                <option value="11">Nhập dữ liệu lên website</option>
-                <option value="35">Nhập dữ liệu vào bảng tính</option>
-                <option value="83">Phiên dịch</option>
-                <option value="9">Quản lý blog &amp; fanpage</option>
-                <option value="111">Quảng cáo facebook</option>
-                <option value="87">Quảng cáo Google Adwords</option>
-                <option value="75">Quay clip âm nhạc</option>
-                <option value="74">Quay clip quảng cáo</option>
-                <option value="92">SEO website</option>
-                <option value="100">Soạn hợp đồng kinh doanh</option>
-                <option value="13">Sửa laptop</option>
-                <option value="48">Sửa máy in / máy photocopy</option>
-                <option value="12">Sửa máy tính để bàn</option>
-                <option value="55">Test và kiểm tra lỗi</option>
-                <option value="47">Thiết kế áo phông / T-shirt</option>
-                <option value="46">Thiết kế backdrop</option>
-                <option value="7">Thiết kế banner quảng cáo</option>
-                <option value="120">Thiết kế bao bì</option>
-                <option value="5">Thiết kế bộ nhận diện thương hiệu</option>
-                <option value="6">Thiết kế brochure</option>
-                <option value="63">Thiết kế business card</option>
-                <option value="8">Thiết kế cover và banner Facebook</option>
-                <option value="44">Thiết kế flyer</option>
-                <option value="59">Thiết kế giao diện Mobile App</option>
-                <option value="25">Thiết kế giao diện website</option>
-                <option value="62">Thiết kế hình động / Flash</option>
-                <option value="45">Thiết kế infographic</option>
-                <option value="4">Thiết kế Logo</option>
-                <option value="64">Thiết kế mẫu Powerpoint</option>
-                <option value="67">Thiết kế mô hình 3D</option>
-                <option value="60">Thiết kế Mockup cho Mobile App</option>
-                <option value="54">Thiết kế Mockup cho Website</option>
-                <option value="43">Thiết kế nhà cửa / nội thất văn phòng</option>
-                <option value="61">Thiết kế nhãn hiệu / bao bì sản phẩm</option>
-                <option value="122">Thiết kế nội thất</option>
-                <option value="121">Thiết kế poster</option>
-                <option value="68">Thiết kế theo yêu cầu</option>
-                <option value="88">Tiếp thị qua email</option>
-                <option value="90">Tìm kiếm khách hàng</option>
-                <option value="89">Tổ chức sự kiện</option>
-                <option value="56">Tối ưu SEO cho trang web</option>
-                <option value="36">Trợ lý từ xa</option>
-                <option value="14">Tư vấn / Thiết kế hệ thống mạng</option>
-                <option value="30">Tư vấn đăng ký thành lập doanh nghiệp</option>
-                <option value="104">Tư vấn gọi vốn từ nhà đầu tư</option>
-                <option value="98">Tư vấn luật doanh nghiệp</option>
-                <option value="86">Tư vấn PR sản phẩm / dịch vụ</option>
-                <option value="101">Tư vấn quản trị doanh nghiệp</option>
-                <option value="85">Tư vấn quảng bá thương hiệu</option>
-                <option value="103">Tư vấn tài chính doanh nghiệp</option>
-                <option value="31">Tư vấn thuế doanh nghiệp</option>
-                <option value="102">Tư vấn tuyển dụng nhân sự</option>
-                <option value="109">Tư vấn về Growth Hacking</option>
-                <option value="110">Tư vấn về Lean Startup</option>
-                <option value="105">Tư vấn về mô hình kinh doanh</option>
-                <option value="65">Vẽ hình minh họa</option>
-                <option value="66">Vẽ tay theo yêu cầu</option>
-                <option value="96">Việc hành chính khác</option>
-                <option value="113">Viết bài cho fanpage</option>
-                <option value="114">Viết bài cho trang vệ tinh để làm SEO</option>
-                <option value="118">Viết bài mới chuẩn SEO cho website tiếng Anh</option>
-                <option value="117">Viết bài mới chuẩn SEO cho website tiếng Việt</option>
-                <option value="37">Viết bài phỏng vấn / phát biểu</option>
-                <option value="24">Viết bài PR</option>
-                <option value="115">Viết bài PR báo chí</option>
-                <option value="116">Viết bài PR sáng tạo nhiều người đọc</option>
-                <option value="77">Viết bài review</option>
-                <option value="78">Viết báo cáo - nghiên cứu</option>
-                <option value="57">Viết game di động</option>
-                <option value="79">Viết kịch bản</option>
-                <option value="40">Viết kịch bản cho video</option>
-                <option value="119">Viết kịch bản clip dựa trên chủ đề</option>
-                <option value="39">Viết mô tả sản phẩm / hướng dẫn sử dụng</option>
-                <option value="16">Viết Mobile App cho web có sẵn</option>
-                <option value="19">Viết nội dung cho blog</option>
-                <option value="20">Viết nội dung cho website</option>
-                <option value="82">Viết nội dung học thuật - đơn xin - thư giới thiệu</option>
-                <option value="53">Viết phần mềm theo yêu cầu</option>
-                <option value="93">Xây dựng liên kết tới trang web - backlink</option>
-                <option value="107">Xây dựng Mobile App MVP (Minium Viable Product)</option>
-                <option value="94">Xây dựng quy trình quản lý / CSKH</option>
-                <option value="106">Xây dựng Web App MVP (Minium Viable Product)</option>
-                <option value="95">Xử lý dữ liệu</option></select>    </div>    <script type="text/javascript">
+name="vlance_jobbundle_jobtype[service]" placeholder="Chọn một dịch vụ cần thuê" data-toggle="popover" data-placement="top" data-content="Chọn một dịch vụ cần thuê"                 data-trigger="hover"                 class="popovers-input span12"    >
+    <option  value="">- Tên dịch vụ -</option>
+         {% for DichVu in post %}
+        <option value="{{ DichVu.id }}">{{ DichVu.title }}</option>
+            {% endfor %}
+                </select>
+        </div>
+                        <script type="text/javascript">
         var catser = "/j/new/catser";
     </script>
     <div class="control-group">
@@ -509,70 +350,11 @@ required="required"                     placeholder="VD: 15/06/2019"            
     id="vlance_jobbundle_jobtype_city"
 name="vlance_jobbundle_jobtype[city]"
 required="required"             data-toggle="popover"                 data-placement="top"                 data-content="Chọn vị trí của freelancer, VD: Hà Nội"                 data-trigger="hover"                 class="popovers-input span12"    >
-    <option  disabled="disabled" selected="selected">- Nơi cần thuê -</option>        <option value="0">Toàn Quốc</option>
-                <option value="24">Hà Nội</option>
-                <option value="31">TP. Hồ Chí Minh</option>
-                <option value="15">Đà Nẵng</option>
-                <option value="1">An Giang</option>
-                <option value="2">Bà Rịa - Vũng Tàu</option>
-                <option value="5">Bắc Giang</option>
-                <option value="4">Bắc Kạn</option>
-                <option value="3">Bạc Liêu</option>
-                <option value="6">Bắc Ninh</option>
-                <option value="7">Bến Tre</option>
-                <option value="8">Bình Dương</option>
-                <option value="9">Bình Định</option>
-                <option value="10">Bình Phước</option>
-                <option value="11">Bình Thuận</option>
-                <option value="12">Cà Mau</option>
-                <option value="14">Cần Thơ</option>
-                <option value="13">Cao Bằng</option>
-                <option value="16">Đắk Lắk</option>
-                <option value="17">Đắk Nông</option>
-                <option value="20">Điện Biên</option>
-                <option value="18">Đồng Nai</option>
-                <option value="19">Đồng Tháp</option>
-                <option value="21">Gia Lai</option>
-                <option value="22">Hà Giang</option>
-                <option value="23">Hà Nam</option>
-                <option value="25">Hà Tĩnh</option>
-                <option value="26">Hải Dương</option>
-                <option value="27">Hải Phòng</option>
-                <option value="29">Hậu Giang</option>
-                <option value="28">Hòa Bình</option>
-                <option value="30">Hưng Yên</option>
-                <option value="32">Khánh Hòa</option>
-                <option value="33">Kiên Giang</option>
-                <option value="34">Kon Tum</option>
-                <option value="35">Lai Châu</option>
-                <option value="38">Lâm Đồng</option>
-                <option value="37">Lạng Sơn</option>
-                <option value="36">Lào Cai</option>
-                <option value="39">Long An</option>
-                <option value="40">Nam Định</option>
-                <option value="41">Nghệ An</option>
-                <option value="42">Ninh Bình</option>
-                <option value="43">Ninh Thuận</option>
-                <option value="44">Phú Thọ</option>
-                <option value="45">Phú Yên</option>
-                <option value="46">Quảng Bình</option>
-                <option value="47">Quảng Nam</option>
-                <option value="48">Quảng Ngãi</option>
-                <option value="49">Quảng Ninh</option>
-                <option value="50">Quảng Trị</option>
-                <option value="51">Sóc Trăng</option>
-                <option value="52">Sơn La</option>
-                <option value="53">Tây Ninh</option>
-                <option value="54">Thái Bình</option>
-                <option value="55">Thái Nguyên</option>
-                <option value="56">Thanh Hóa</option>
-                <option value="57">Thừa Thiên - Huế</option>
-                <option value="58">Tiền Giang</option>
-                <option value="59">Trà Vinh</option>
-                <option value="60">Tuyên Quang</option>
-                <option value="61">Vĩnh Long</option>
-                <option value="62">Vĩnh Phúc</option>
-                <option value="63">Yên Bái</option></select>    </div>                    </div>
+    <option  disabled="disabled" selected="selected">- Nơi cần thuê -</option>
+                            {% for ThanhPho in thanhphos %}
+        <option value="{{ ThanhPho.id }}">{{ ThanhPho.title }}</option>
+            {% endfor %}
+                        </select>    </div>                    </div>
                                     </div>
             </div>
         </div>
@@ -654,6 +436,7 @@ name="vlance_jobbundle_jobtype[isPrivate]"     value="1"    />                  
     </div>
 </div>
             </div>
+
 
 
 {% endblock %}
