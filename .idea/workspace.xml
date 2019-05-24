@@ -87,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="268" />
     <option name="y" value="-16" />
     <option name="width" value="1026" />
@@ -253,12 +253,12 @@
       <workItem from="1558383514307" duration="755000" />
       <workItem from="1558425822680" duration="514000" />
       <workItem from="1558594788227" duration="3462000" />
-      <workItem from="1558675161139" duration="32646000" />
+      <workItem from="1558675161139" duration="32649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114694000" />
+    <option name="totallyTimeSpent" value="114697000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -270,7 +270,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.26626325" />
       <window_info id="Structure" order="1" sideWeight="0.5011547" side_tool="true" weight="0.22617246" />
@@ -278,7 +278,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32850242" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.74583966" visible="true" weight="0.30273753" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.74583966" weight="0.30273753" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.76323754" weight="0.39774558" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
