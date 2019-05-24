@@ -6,6 +6,7 @@ from django.views.generic.detail import DetailView
 
 
 # Create your views here.
+
 def index(request):
     return render(request, "index.html", {})
 
@@ -56,5 +57,4 @@ class ViecLamDetailView(ListView):
         context['kn'] = KyNang.objects.all()
 
         return context
-
 

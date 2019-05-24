@@ -13,3 +13,4 @@ urlpatterns = [
     path('dang-cuoc-thi.html', views.dangcuocthi, name='dang-cuoc-thi'),
     path('viec-lam-freelance.html', views.vieclamfreelance, name='viec-lam'),
 ]
+

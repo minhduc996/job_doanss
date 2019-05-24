@@ -26,7 +26,21 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/job/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> parent of 62fa14b... them trang con
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +50,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>vlan</find>
@@ -53,6 +68,8 @@
       <replace>$1&quot;{% static '$2'%}&quot;</replace>
     </replaceStrings>
   </component>
+=======
+>>>>>>> parent of 62fa14b... them trang con
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/job_doans" />
   </component>
@@ -60,6 +77,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../web_job/polls/views.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/django_autoslugfield/utils.py" />
         <option value="$PROJECT_DIR$/django_autoslugfield/fields.py" />
         <option value="$PROJECT_DIR$/django_autoslugfield/__init__.py" />
@@ -90,6 +108,16 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="268" />
     <option name="y" value="-16" />
+=======
+        <option value="$PROJECT_DIR$/job/urls.py" />
+        <option value="$PROJECT_DIR$/job_doan/urls.py" />
+        <option value="$PROJECT_DIR$/job/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="300" />
+>>>>>>> parent of 62fa14b... them trang con
     <option name="width" value="1026" />
     <option name="height" value="745" />
   </component>
@@ -106,11 +134,14 @@
               <item name="job_doan" type="b2602c69:ProjectViewProjectNode" />
               <item name="job_doan" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="job_doan" type="b2602c69:ProjectViewProjectNode" />
               <item name="job_doan" type="462c0819:PsiDirectoryNode" />
               <item name="job_doans" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> parent of 62fa14b... them trang con
           </expand>
           <select />
         </subPane>
@@ -219,6 +250,7 @@
       <updated>1558041340396</updated>
       <workItem from="1558041341827" duration="299000" />
       <workItem from="1558041691384" duration="3949000" />
+<<<<<<< HEAD
       <workItem from="1558068525045" duration="7399000" />
       <workItem from="1558107945105" duration="3479000" />
       <workItem from="1558112164436" duration="15237000" />
@@ -237,10 +269,13 @@
       <workItem from="1558594788227" duration="3462000" />
       <workItem from="1558675161139" duration="32649000" />
       <workItem from="1558722758633" duration="622000" />
+=======
+>>>>>>> parent of 62fa14b... them trang con
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="115319000" />
   </component>
   <component name="TodoView" selected-index="3">
@@ -267,6 +302,26 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32850242" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+=======
+    <option name="totallyTimeSpent" value="4248000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="300" y="0" width="1026" height="745" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25465837" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49896482" weight="0.30392158" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+>>>>>>> parent of 62fa14b... them trang con
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" auto_hide="true" id="Event Log" order="10" sideWeight="0.25416037" side_tool="true" weight="0.30273753" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7473525" weight="0.3188406" />
@@ -440,6 +495,7 @@
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.1.dist-info/INSTALLER">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Django-2.2.1.dist-info/entry_points.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -536,9 +592,20 @@
           <caret line="608" column="122" selection-start-line="608" selection-start-column="122" selection-end-line="608" selection-end-column="122" />
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/job/templates/layout/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/templates/dang-du-an.html">
+    <entry file="file://$PROJECT_DIR$/job/static/js/form/job/edit.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> parent of 62fa14b... them trang con
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job_doan/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="339">
           <caret line="357" column="42" lean-forward="true" selection-start-line="357" selection-start-column="42" selection-end-line="357" selection-end-column="42" />
         </state>
@@ -569,20 +636,41 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+        <state relative-caret-position="187">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job_doan/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+>>>>>>> parent of 62fa14b... them trang con
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/job/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="69" column="33" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="33" />
+=======
+    <entry file="file://$PROJECT_DIR$/job/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+>>>>>>> parent of 62fa14b... them trang con
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -604,6 +692,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-918">
           <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+=======
+    <entry file="file://$PROJECT_DIR$/job/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+>>>>>>> parent of 62fa14b... them trang con
         </state>
       </provider>
     </entry>
